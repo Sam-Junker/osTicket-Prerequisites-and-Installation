@@ -56,6 +56,9 @@ From here you will need to create the Virtual Machine "VM." The steps to do this
 <p>
 <h2>Downloading of osTicket</h2>
 </p>
+Many of these steps are specific to osTicket, it uses sever specific files and its own SQL database. These can all be found on their website in the downloads.</p>
+</p>
+
 1) Download the .zip file provided for osTicket. If there is not one provided it is available on the osTicket website.</p>
 2) place the .zip folder on the desktop and right click select expand all.</p>
 3) Remove the .zip folder as we will not need it any more.</p>
