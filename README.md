@@ -6,9 +6,6 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -59,6 +56,9 @@ From here you will need to create the Virtual Machine "VM." The steps to do this
 Many of these steps are specific to osTicket, it uses sever specific files and its own SQL database. These can all be found on their website in the downloads.</p>
 </p>
 
+<h2>Video Demonstration</h2>
+
+- ### [YouTube: How To Install osTicket Part 1](https://youtu.be/5z-nGB86tYQ)  </p>
 1) Download the .zip file provided for osTicket. If there is not one provided it is available on the osTicket website.</p>
 2) place the .zip folder on the desktop and right click select expand all.</p>
 3) Remove the .zip folder as we will not need it any more.</p>
@@ -76,6 +76,14 @@ Many of these steps are specific to osTicket, it uses sever specific files and i
   php_imap.dll</p>
   Enable: php_intl.dll</p>
   Enable: php_opcache.dll</p>
-  15) Rename "ost-sampleconfig.php" in "C:\inetpub\wwwroot\osTicket\include" to "ost-config.php"</p>
+15) Rename "ost-sampleconfig.php" in "C:\inetpub\wwwroot\osTicket\include" to "ost-config.php"</p>
+16) Once the name is changed the security will need changed to allow read and write access to the correct users. (right click, properties, security, advanced, "list group or user" apply)</p>
+17) Next setup the helpdesk name and admin user on web browser. </p>
+<img width="965" height="976" alt="osTicket-4-account setup" src="https://github.com/user-attachments/assets/f1011d97-bb1b-4ab8-8f23-2d162ab3fed5" />
+
+18) Now we will download Heidi from the install folder. This is the database that osTicket will use. Once downloaded create the database "osTicket" using the credentials from MySQL user we created earlier. </p>
+19) enter this database information into the web browser setup and press install now.</p>
+
+Congratulations! you have now installed and setup osTicket!</p>
   
   
