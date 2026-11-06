@@ -23,7 +23,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - IIS
 - SQL database
 - Required PHP Extensions
-- Item 5
 
 <h2>Creating VM for osTicket download</h2>
 First step is to create a resource group in Azure. To do this we open azure and go to the resource groups tab, and then select the +Create button. The window below will come up and you can create your group name making sure you have the correct subscription selected then select "Create" 
